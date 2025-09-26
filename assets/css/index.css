@@ -1,0 +1,436 @@
+.section-universal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-universal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.circulo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: #FF6202 3px solid;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    z-index: 3;
+}
+.circulo-interno{
+    background-color: transparent;
+    width: 290px;
+    height: 290px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 3;
+}
+.circulo-interno img{
+    width: 100%;
+    object-fit: cover;
+}
+.mini-circulo{
+    position: absolute;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 15px #00000025;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    transform: rotate(calc(360deg / 7 * var(--i))) translate(150px) rotate(calc(-360deg / 7 * var(--i)));
+    transition: 0.25s;
+    color: pointer;
+    z-index: 3;
+}
+.mini-circulo:hover{
+    width: 45px; 
+    height: 45px;
+    top: calc(50% - 22.5px);
+    left: calc(50% - 22.5px);
+}
+.mini-circulo p{
+    transform: translateX(92px) translateY(7px);
+    min-width: 300%;
+    max-width: 300%;
+    color: #000000;
+    font-weight: 700;
+    font-size: 15px;
+}
+.mini-circulo-2 p{
+    transform: translateX(2px) translateY(55px) !important;
+    min-width: 500% !important;
+    max-width: 500% !important;
+    text-align: center;
+}
+.mini-circulo-2 svg{
+    transform: translateY(32px) translateX(4px);
+    width: 25px;
+}
+.mini-circulo-3 p{
+    transform: translateX(100px) translateY(10px) !important;
+    text-align: start;
+}
+.mini-circulo-3 svg{
+    transform: translateY(30px);
+    width: 25px;
+}
+.mini-circulo-4 p{
+    transform: translateX(-82px) translateY(10px) !important;
+}
+.mini-circulo-4 svg{
+    transform: translateY(40px);
+    width: 25px;
+}
+.mini-circulo-5 p{
+    transform: translateX(-82px) translateY(0px) !important;
+}
+.mini-circulo-5 svg{
+    transform: translateY(43px);
+    width: 25px;
+}
+.mini-circulo-6 p{
+    transform: translateX(2px) translateY(-53px) !important;
+    text-align: center;
+}
+.mini-circulo-6 svg{
+    transform: translateY(30px);
+    width: 25px;
+}
+.mini-circulo-7 p{
+    transform: translateX(135px) translateY(-5px);
+    min-width: 500% !important;
+    max-width: 500% !important;
+}
+.mini-circulo-7 svg{
+    transform: translateY(29px);
+    width: 25px;
+}
+.mini-circulo-9 svg{
+    transform: translateY(41px);
+    width: 25px;
+}
+.contenedor-tarjetas-servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px 20px;
+}
+.tarjeta-servicios{
+    border-radius: 15px;
+    overflow: hidden;
+    width: calc(20% - 16px);
+    height: auto;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.tarjeta-servicios:hover{
+    transform: scale(0.90);
+}
+.tarjeta-servicios-imagen{
+    width: 100%;
+    object-fit: cover;
+    /*filter: grayscale(100%);*/
+    transition: 0.25s;
+}
+.tarjeta-servicios:hover > img{
+    filter: grayscale(0%);
+}
+.icon-box{
+    border-radius: 15px;
+}
+.franja-1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    transform: scaleY(-1);
+    z-index: 2;
+}
+.franja-2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+.ajuste-container-1{
+    padding: 120px 0px !important;
+}
+.pin-animado {
+    position: absolute;
+    opacity: 1;
+    transform: scale(0.5);
+    animation: crecerDesaparecer 3s ease forwards;
+    pointer-events: none;
+}
+
+@keyframes crecerDesaparecer {
+    0% {
+    opacity: 1;
+    transform: scale(0.5);
+    }
+    50% {
+    opacity: 0.8;
+    transform: scale(1.2);
+    }
+    100% {
+    opacity: 0;
+    transform: scale(2);
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 991px){
+    .mini-circulo p{
+        font-size: 13px;
+    }
+    .mini-circulo-2 p{
+        transform: translateX(-0px) translateY(40px) !important;
+    }
+    .mini-circulo-4 p{
+        transform: translateX(-70px) translateY(10px) !important;
+    }
+    .mini-circulo-5 p{
+        transform: translateX(-70px) translateY(0px) !important;
+    }
+    .circulo{
+        position: relative;
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        border: #FF6202 3px solid;
+        margin: 50px auto;
+    }
+    .mini-circulo{
+        width: 40px; 
+        height: 40px;
+        top: calc(40% + 10px);
+        left: calc(40% + 5px);
+        transform: rotate(calc(360deg / 7 * var(--i))) translate(137px) rotate(calc(-360deg / 7 * var(--i)));
+    }
+    .circulo-interno{
+        background-color: transparent;
+        width: 260px;
+        height: 260px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    .mini-circulo-2 svg{
+        transform: translateY(28px) translateX(4px);
+        width: 25px;
+    }
+    .mini-circulo-3 svg{
+        transform: translateY(28px) translateX(0.5px);
+        width: 25px;
+    }
+    .mini-circulo-4 svg{
+        transform: translateY(36px) translateX(0px);
+        width: 25px;
+    }
+    .mini-circulo-5 svg{
+        transform: translateY(39px) translateX(0px);
+        width: 25px;
+    }
+    .mini-circulo-6 svg{
+        transform: translateY(28px) translateX(2px);
+        width: 25px;
+    }
+    .mini-circulo-7 svg{
+        transform: translateY(27px) translateX(0px);
+        width: 25px;
+    }
+    .mini-circulo-9 svg{
+        transform: translateY(37px) translateX(0px);
+        width: 25px;
+    }
+    .contenedor-tarjetas-servicios{
+        grid-gap: 20px 20px;
+    }
+    .tarjeta-servicios{
+        width: calc(25% - 16px);
+    }
+    .ajuste-container-1{
+        padding: 50px 50px !important;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 599px){
+    .mini-circulo p{
+        font-size: 12px;
+    }
+    .mini-circulo-2 p{
+        transform: translateX(2px) translateY(40px) !important;
+    }
+    .mini-circulo-3 p{
+        transform: translateX(85px) translateY(13px) !important;
+    }
+    .mini-circulo-4 p{
+        transform: translateX(-65px) translateY(10px) !important;
+    }
+    .mini-circulo-5 p{
+        transform: translateX(-60px) translateY(0px) !important;
+    }
+    .mini-circulo-6 p{
+        transform: translateX(2px) translateY(-50px) !important;
+    }
+    .mini-circulo-7 p{
+        transform: translateX(120px) translateY(-5px) !important;
+    }
+    .mini-circulo-9 p{
+        transform: translateX(80px) translateY(5px) !important;
+    }
+    .circulo{
+        position: relative;
+        width: 235px;
+        height: 235px;
+        border-radius: 50%;
+        border: #FF6202 3px solid;
+        margin: 50px auto;
+    }
+    .circulo-interno{
+        background-color: transparent;
+        width: 220px;
+        height: 220px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    .mini-circulo{
+        width: 35px; 
+        height: 35px;
+        top: calc(40% + 5px);
+        left: calc(40% + 5px);
+        transform: rotate(calc(360deg / 7 * var(--i))) translate(115px) rotate(calc(-360deg / 7 * var(--i)));
+    }
+    .mini-circulo-2 svg{
+        transform: translateY(25px) translateX(3px);
+        width: 20px;
+    }
+    .mini-circulo-3 svg{
+        transform: translateY(25px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-4 svg{
+        transform: translateY(32px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-5 svg{
+        transform: translateY(33px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-6 svg{
+        transform: translateY(26px) translateX(2px);
+        width: 20px;
+    }
+    .mini-circulo-7 svg{
+        transform: translateY(24px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-9 svg{
+        transform: translateY(33px) translateX(0px);
+        width: 20px;
+    }
+    .contenedor-tarjetas-servicios{
+        justify-content: center;
+        grid-gap: 10px 10px;
+    }
+    .tarjeta-servicios{
+        width: calc(25% - 16px);
+    }
+    .ajuste-container-1{
+        padding: 25px 25px !important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 499px){
+    .mini-circulo p{
+        font-size: 11px;
+    }
+    .mini-circulo-2 p{
+        transform: translateX(2px) translateY(35px) !important;
+    }
+    .mini-circulo-3 p{
+        transform: translateX(65px) translateY(13px) !important;
+    }
+    .mini-circulo-4 p{
+        transform: translateX(-60px) translateY(10px) !important;
+    }
+    .mini-circulo-5 p{
+        transform: translateX(-60px) translateY(0px) !important;
+    }
+    .mini-circulo-6 p{
+        transform: translateX(2px) translateY(-40px) !important;
+    }
+    .mini-circulo-7 p{
+        transform: translateX(95px) translateY(0px) !important;
+    }
+    .mini-circulo-9 p{
+        transform: translateX(65px) translateY(5px) !important;
+    }
+    .circulo{
+        position: relative;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: #FF6202 3px solid;
+        margin: 50px auto;
+    }
+    .mini-circulo{
+        width: 28px; 
+        height: 28px;
+        top: calc(40% + 3px);
+        left: calc(40% + 3px);
+        transform: rotate(calc(360deg / 7 * var(--i))) translate(83px) rotate(calc(-360deg / 7 * var(--i)));
+    }
+    .circulo-interno{
+        background-color: transparent;
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    .mini-circulo-2 svg{
+        transform: translateY(25px) translateX(3px);
+        width: 20px;
+    }
+    .mini-circulo-3 svg{
+        transform: translateY(25px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-4 svg{
+        transform: translateY(32px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-5 svg{
+        transform: translateY(33px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-6 svg{
+        transform: translateY(26px) translateX(2px);
+        width: 20px;
+    }
+    .mini-circulo-7 svg{
+        transform: translateY(24px) translateX(0px);
+        width: 20px;
+    }
+    .mini-circulo-9 svg{
+        transform: translateY(33px) translateX(0px);
+        width: 20px;
+    }
+    .contenedor-tarjetas-servicios{
+        justify-content: center;
+        grid-gap: 10px 10px;
+    }
+    .tarjeta-servicios{
+        width: calc(35% - 16px);
+    }
+}

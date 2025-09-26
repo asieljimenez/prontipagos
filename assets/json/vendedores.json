@@ -1,0 +1,40 @@
+{
+    "vendedores":[
+        {
+            "nombre": "Asiel Jiménez",
+            "correo": "fernando.valle@prontipagos.com",
+            "telefono": "55 36 98 06 94",
+            "cargo": "Vendedor",
+            "pagina": "",
+            "id": "34905827",
+            "imagen": "./assets/img/usuario.png"
+        },
+        {
+            "nombre": "Fulanita Jiménez",
+            "correo": "fulanita@prontipagos.com",
+            "telefono": "55 55 55 55 55",
+            "cargo": "Vendedora",
+            "pagina": "",
+            "id": "68742103",
+            "imagen": "./assets/img/usuario.png"
+        },
+        {
+            "nombre": "Fulanito Jiménez",
+            "correo": "fulanito@prontipagos.com",
+            "telefono": "55 55 55 55 55",
+            "cargo": "Vendedor",
+            "pagina": "",
+            "id": "68742103",
+            "imagen": "./assets/img/usuario.png"
+        },
+        {
+            "nombre": "Fulanos Jiménez",
+            "correo": "fulanos@prontipagos.com",
+            "telefono": "55 55 55 55 55",
+            "cargo": "Vendedor",
+            "pagina": "",
+            "id": "68742103",
+            "imagen": "./assets/img/usuario.png"
+        }
+    ]
+}

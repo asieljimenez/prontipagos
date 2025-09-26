@@ -1,0 +1,128 @@
+{
+    "pines": [
+        {
+            "imagen": "./assets/img/nintendoswitch.webp",
+            "nombre": "Nintendo Switch"
+        },
+        {
+            "imagen": "./assets/img/blizzard.webp",
+            "nombre": "Blizzard"
+        },
+        {
+            "imagen": "./assets/img/playstationplus.webp",
+            "nombre": "PlayStation PLus"
+        },
+        {
+            "imagen": "./assets/img/minecraft.webp",
+            "nombre": "Minecraft"
+        },
+        {
+            "imagen": "./assets/img/steam.webp",
+            "nombre": "Steam"
+        },
+        {
+            "imagen": "./assets/img/razergold.webp",
+            "nombre": "Razer Gold"
+        },
+        {
+            "imagen": "./assets/img/xboxgamepass.webp",
+            "nombre": "Xbox Game Pass"
+        },
+        {
+            "imagen": "./assets/img/nintendoeshop.webp",
+            "nombre": "Nintendo e-Shop"
+        },
+        {
+            "imagen": "./assets/img/crunchyroll.webp",
+            "nombre": "Crunchyroll"
+        },
+        {
+            "imagen": "./assets/img/xboxlive.webp",
+            "nombre": "Xbox Live"
+        }
+    ],
+    "recargas": [
+        {
+            "imagen": "./assets/img/telcel.webp",
+            "nombre": "Telcel"
+        },
+        {
+            "imagen": "./assets/img/movistar.webp",
+            "nombre": "Movistar"
+        },
+        {
+            "imagen": "./assets/img/atyt.webp",
+            "nombre": "At&T"
+        },
+        {
+            "imagen": "./assets/img/unefon.webp",
+            "nombre": "Unefon"
+        },
+        {
+            "imagen": "./assets/img/bait.webp",
+            "nombre": "Bait"
+        },
+        {
+            "imagen": "./assets/img/virgin.webp",
+            "nombre": "Virgin"
+        },
+        {
+            "imagen": "./assets/img/mimovil.webp",
+            "nombre": "Mi movil"
+        },
+        {
+            "imagen": "./assets/img/oui.webp",
+            "nombre": "Oui"
+        },
+        {
+            "imagen": "./assets/img/bienestar.webp",
+            "nombre": "Internet para el bienestar"
+        },
+        {
+            "imagen": "./assets/img/diri.webp",
+            "nombre": "Diri movil"
+        }
+    ],
+    "catalogo": [
+        {
+            "imagen": "./assets/img/avon.webp",
+            "nombre": "Avon"
+        },
+        {
+            "imagen": "./assets/img/natura.webp",
+            "nombre": "Natura"
+        },
+        {
+            "imagen": "./assets/img/betterware.webp",
+            "nombre": "BetterWare"
+        },
+        {
+            "imagen": "./assets/img/fuller.webp",
+            "nombre": "Fuller"
+        },
+        {
+            "imagen": "./assets/img/jafra.webp",
+            "nombre": "Jafra"
+        },
+        {
+            "imagen": "./assets/img/arabela.webp",
+            "nombre": "Arabela"
+        },
+        {
+            "imagen": "./assets/img/tupperware.webp",
+            "nombre": "Tupperware"
+        },
+        {
+            "imagen": "./assets/img/joie.webp",
+            "nombre": "Joie"
+        },
+        {
+            "imagen": "./assets/img/lbel.webp",
+            "nombre": "L'bel"
+        },
+        {
+            "imagen": "./assets/img/yanbal.webp",
+            "nombre": "Yanbal"
+        }
+    ]
+}
